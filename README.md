@@ -1,2 +1,2 @@
-# Proyecto-Marat-n-de-Algoritmos-C-10mo-B
+# proyecto
 miselanea de ejercicios en c++
