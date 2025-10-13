@@ -1,0 +1,10 @@
+#include <bits/stdc++.h>
+#include <nlohmann/json.hpp>
+using namespace std;
+using json = nlohmann::json;
+
+int main(){
+    string txt = R"({"nombre":"Ana","edad":25,"ciudad":"Quito"})";
+    json j = json::parse(txt);
+    cout<<"Nombre: "<<j["nombre"]<<"\nEdad: "<<j["edad"]<<"\nCiudad: "<<j["ciudad"]<<'\n';
+}
